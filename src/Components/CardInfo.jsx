@@ -1,6 +1,6 @@
 // CartInfo.js
 import React, { useContext } from 'react';
-import { Shopping } from './App';
+import { Shopping } from '../App';
 
 const CardInfo = () => {
   const { cartCount, totalCost } = useContext(Shopping);

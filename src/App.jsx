@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState } from 'react';
 import './App.css';
-import CardInfo from './CardInfo';
+import CardInfo from './Components/CardInfo';
+
 
 export const Shopping = createContext(null);
 
